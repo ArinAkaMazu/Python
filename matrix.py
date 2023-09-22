@@ -16,5 +16,5 @@ for i in range(n):
     sum=0
     for j in range(m):
         sum=sum+matrix[i][j]
-    print("sum of",i+1,"is",sum)
+    print("sum of row",i+1,"is",sum)
     print()
