@@ -4,6 +4,7 @@ Maths=int(input("enter the marks"))
 Science=int(input("enter the marks"))
 SS=int(input("enter the marks"))
 total=English+Hindi+Science+Maths+SS
+print(total)
 percentage=(total/(5*100))*100
 print("Percentage:",percentage)
 if (percentage>=90):
