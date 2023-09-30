@@ -1,2 +1,13 @@
-dict={"india":"new delhi","Germany":"Berkin","France":"Paris","Sri lanka":"Colombia"}
-print(len(dict))
+car = {
+"brand": "Ford",
+"model": "Mustang",
+"year": 1964
+}
+
+x = car.keys()
+
+print(x) #before the change
+
+car["color"] = "white"
+
+print(x) #after the change
